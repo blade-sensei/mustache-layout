@@ -1,0 +1,19 @@
+{
+  "name": "mustache-layout",
+  "version": "1.0.0",
+  "description": "Package to mustache express that enables to build Layouts (extends) views",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blade-sensei/mustache-layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blade-sensei/mustache-layout/issues"
+  },
+  "homepage": "https://github.com/blade-sensei/mustache-layout#readme"
+}
