@@ -1,9 +1,9 @@
-class MustcheLayout {
+class MustacheLayout {
   constructor() {
-    if (!MustchaLayout.instance) {
-      MustchaLayout.instance = this;
+    if (!MustacheLayout.instance) {
+      MustacheLayout.instance = this;
     }
-    return MustchaLayout.instance;
+    return MustacheLayout.instance;
   }
 
   /**
@@ -55,4 +55,4 @@ class MustcheLayout {
   }
 }
 
-module.exports = new MustcheLayout();
+module.exports = new MustacheLayout();
