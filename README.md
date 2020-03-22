@@ -20,6 +20,10 @@ each time you render a page/view, you just need to use the function: `build`
 
 ## Install
 
+```bash
+npm i mustache-layout-s
+```
+
 ## How to use it with example
 
 In your server.js file of express app, add the app instance to our package.
@@ -28,7 +32,7 @@ Mustache-express package implementation is also explained.
 
 ```js
 const mustacheExpress = require('mustache-express');
-const mustacheLayout = require('mustache-layout');
+const mustacheLayout = require('mustache-layout-s');
 
 const app = express();
 
@@ -50,11 +54,11 @@ Put all the layer in the buildLayout function as parameters,
 > - data properties should be named as in the view
 
 ```js
-const layout = require('mustache-layout');
+const layout = require('mustache-layout-s');
 
 router.get('/edit', async (_, res) => {
     const user = 'admin'
-    const html = await layout.buildLayout(
+    const html = await layout.build(
         { name: 'admin/edition/editor.view.html', data: { user } },
         { name: 'admin/admin.view.html' },
         { name:'layout/base.view.html' }
