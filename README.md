@@ -12,7 +12,7 @@ You have a soultion here to this problem: https://stackoverflow.com/questions/79
 ## Use case
 
 If you don't want to copy/paste the header/footer, or maybe an menu bar that is repeated in all admin sub sections,
-each time you render a page/view, you just need to use the function: `render`
+each time you render a page/view, you just need to use the function: `build`
 
 
 
