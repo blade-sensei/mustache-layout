@@ -1,6 +1,6 @@
 {
   "name": "mustache-layout-s",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to mustache express that enables to build Layouts (extends) views",
   "main": "index.js",
   "scripts": {
