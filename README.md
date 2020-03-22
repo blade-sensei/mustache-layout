@@ -1,6 +1,6 @@
 # mustache-layout
 
-Package to mustache express that enables to build Layouts (extends) views
+Package for mustache-express that enables to build Layouts (extends) views.
 
 ## Problem
 
