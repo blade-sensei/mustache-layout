@@ -4,10 +4,9 @@ Package for mustache-express that enables to build Layouts (extends) views.
 
 ## Problem
 
-If you use [mustache-express](https://www.npmjs.com/package/mustache-express) you can include/import views (partials), but you can't extend your view,
-by extend i mean 'inherit'.
+If you use [mustache-express](https://www.npmjs.com/package/mustache-express) you can include/import views (partials), but you can't extend your view, by extend i mean 'inherit'.
 
-You have a soultion here to this problem: https://stackoverflow.com/questions/7925931/can-mustache-templates-do-template-extension, but this package suggest an alternative solution.
+You have a solution to this problem: https://stackoverflow.com/questions/7925931/can-mustache-templates-do-template-extension, but mustache-layout package suggest an alternative solution.
 
 ## Use case
 
