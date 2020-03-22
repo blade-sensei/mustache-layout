@@ -1,0 +1,10 @@
+{
+    "extends": "eslint-config-sensei",
+    "rules": {
+        "require-jsdoc": 0,
+        "valid-jsdoc": 0,
+        "no-undef": 0,
+        "no-await-in-loop": 0,
+        "no-restricted-syntax": 0
+    }
+}
